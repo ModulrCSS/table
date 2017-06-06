@@ -1,0 +1,174 @@
+/*
+  @about Modulr.css
+  -----------------------------------------
+  @desc: Pure Css Table Module
+  @author: Alan Museljic
+  @git: https://github.com/ModulrCSS/table
+  @source: http://www.getmodulr.com/css/table
+  ------------------------------------------------
+  @uses: modulr/table/*
+  @docs: true 
+\-------------------------------------------------*/
+
+/* 
+  @property: many
+  @desc: table reset
+*/
+
+[mod-table] {
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  max-width: 100%;
+  width: 100%;
+  float: left;
+  font-size: 14px;
+}
+
+/* 
+  @property: many
+  @desc: table head
+*/
+
+[mod-table] thead th, 
+[mod-table] thead td {
+  border-top: none;
+  text-align: left;
+}
+
+[mod-table] td, [mod-table] th{
+  padding: 10px;
+  border-top: 1px solid #dedede;
+}
+
+/* 
+  @property: many
+  @desc: table default colors
+*/
+
+[mod-table~="default"] thead th, 
+[mod-table~="default"] thead td {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dddddd;
+}
+
+/* 
+  @property: many
+  @desc: table head bordered
+*/
+
+[mod-table~="bordered"] thead th, 
+[mod-table~="bordered"] thead td {
+  border-width: 1px;
+  border-style: solid;
+  border-color: inherit;
+}
+
+/* 
+  @property: background
+  @desc: table hovered
+*/
+
+[mod-table~="hovered"] tbody tr:hover {
+  background: #f6f6f6;
+}
+
+/* 
+  @property: border
+  @desc: table bordered
+*/
+
+[mod-table~="bordered"] td,
+[mod-table~="bordered"] th{
+  border-color: inherit;
+}
+
+/* 
+  @property: background
+  @desc: table striped
+*/
+
+[mod-table~="striped"] tr:nth-child(odd) > td {
+  background: #f6f6f6;
+}
+
+/* 
+  @property: text
+  @desc: table center text
+*/
+
+[mod-table~="center"] *,
+[mod-table~="center"] thead th{
+  text-align: center;
+}
+
+/* 
+  @property: padding
+  @desc: media type padding
+*/
+
+[mod-table~="media"] td,
+[mod-table~="media"] th{
+  padding: 8px;
+}
+
+/* 
+  @property: white-space
+  @desc: table responsive table
+*/
+
+[mod-table~="rensponsive"]{
+  white-space: nowrap;
+}
+
+/* 
+  @property: border
+  @desc: border width 2px
+*/
+
+[mod-table~="bordered"][mod-table~="border-2"] td,
+[mod-table~="bordered"][mod-table~="border-2"] th{
+  border-width: 2px;
+}
+
+/* 
+  @property: border
+  @desc: border width 3px
+*/
+
+[mod-table~="bordered"][mod-table~="border-3"] td,
+[mod-table~="bordered"][mod-table~="border-3"] th{
+  border-width: 3px;
+}
+
+/* 
+  @property: border
+  @desc: border width 4px
+*/
+
+[mod-table~="bordered"][mod-table~="border-4"] td,
+[mod-table~="bordered"][mod-table~="border-4"] th{
+  border-width: 4px;
+}
+
+/* 
+  @property: border
+  @desc: border width 5px
+*/
+
+[mod-table~="bordered"][mod-table~="border-5"] td,
+[mod-table~="bordered"][mod-table~="border-5"] th{
+  border-width: 5px;
+}
+
+/* 
+  @property: border
+  @desc: border width 6px
+*/
+
+[mod-table~="bordered"][mod-table~="border-6"] td,
+[mod-table~="bordered"][mod-table~="border-6"] th{
+  border-width: 6px;
+}

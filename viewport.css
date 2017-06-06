@@ -1,0 +1,70 @@
+/* extra large size */
+
+@media (min-width: 1920px){
+
+  [mod-if-screen-xl~="responsive-table"]{
+    display: block;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+
+}
+
+/* large size */
+
+@media (max-width: 1920px){
+  [mod-if-screen-lg~="responsive-table"]{
+    display: block;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+}
+
+/* medium size */
+
+@media (max-width: 1280px){
+  [mod-if-screen-md~="responsive-table"]{
+    display: block;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+
+}
+
+/* small size */
+
+@media (max-width: 960px){
+  [mod-if-screen-sm~="responsive-table"]{
+    display: block;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+}
+
+/* extra small xs */
+
+@media (max-width: 748px){
+
+ [mod-if-screen-xs~="responsive-table"]{
+     display: block;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+ }
+
+}
+
+/* extra extra small */
+
+@media (max-width: 480px){
+  [mod-if-screen-xxs~="responsive-table"]{
+    display: block;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+}
