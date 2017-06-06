@@ -1,0 +1,25 @@
+{
+  "name": "modulr-table",
+  "homepage": "https://github.com/ModulrCSS/table",
+  "authors": [
+    "uloga <wpnemesis@gmail.com>"
+  ],
+  "description": "Modulr.css table module",
+  "main": "",
+  "keywords": [
+    "tables",
+    "css3",
+    "html5",
+    "framework",
+    "modulr",
+    "boostrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
